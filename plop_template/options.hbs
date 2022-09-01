@@ -1,0 +1,22 @@
+// pages_{{fileName}}
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script lang="ts">
+import { Options, Vue } from 'vue-class-component';
+
+@Options
+export default class {{ className ||  fileName}} extends Vue {
+  static created() {
+    console.log('component created');
+  }
+}
+
+</script>
+
+<style lang="less" scoped>
+
+</style>

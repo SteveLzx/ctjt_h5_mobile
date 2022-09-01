@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="6px" viewBox="0 0 196 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img-pingmuone</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#4CFEA0" offset="0%"></stop>
+            <stop stop-color="#00FFF4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="报告主页-进阶(切图)" transform="translate(-277.000000, -246.000000)" fill="url(#linearGradient-1)">
+            <g id="img-pingmuone" transform="translate(277.000000, 246.000000)">
+                <path d="M131,0 L135,0 L135,6 L131,6 L131,0 Z M140,0 L144,0 L144,6 L140,6 L140,0 Z M148,0 L152,0 L152,6 L148,6 L148,0 Z M175,0 L179,0 L179,6 L175,6 L175,0 Z M157,0 L161,0 L161,6 L157,6 L157,0 Z M183,0 L187,0 L187,6 L183,6 L183,0 Z M192,0 L196,0 L196,6 L192,6 L192,0 Z M113,0 L117,0 L117,6 L113,6 L113,0 Z M105,0 L109,0 L109,6 L105,6 L105,0 Z M0,0 L4,0 L4,6 L0,6 L0,0 Z M9,0 L13,0 L13,6 L9,6 L9,0 Z M17,0 L21,0 L21,6 L17,6 L17,0 Z M44,0 L48,0 L48,6 L44,6 L44,0 Z M35,0 L39,0 L39,6 L35,6 L35,0 Z M26,0 L30,0 L30,6 L26,6 L26,0 Z M52,0 L56,0 L56,6 L52,6 L52,0 Z M61,0 L65,0 L65,6 L61,6 L61,0 Z M70,0 L74,0 L74,6 L70,6 L70,0 Z M87,0 L91,0 L91,6 L87,6 L87,0 Z M79,0 L83,0 L83,6 L79,6 L79,0 Z" id="_1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

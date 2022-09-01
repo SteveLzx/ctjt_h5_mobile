@@ -1,0 +1,781 @@
+{
+  "/teaching/v1/studentVerifyLogin": {
+    "code": 200,
+    "body": {
+      "code": 200,
+      "message": "token已失效"
+    }
+  },
+  "/teaching/v1/appointPractice": {
+    "code": 200,
+    "body": {
+      "code": 200,
+      "message": "token已失效"
+    }
+  },
+  "/teaching/v1/queryStudentLearnInfo": {
+    "body": {
+      "defaultVenue": {
+        "advanceDays": 7,
+        "isAvailable": 0,
+        "learnPlanId": "string",
+        "venueId": "string",
+        "venueName": "福田广仁大楼"
+      },
+      "learnLevelId": 0,
+      "learnProjectId": "string",
+      "learnProjectName": "侧方位停车",
+      "venueList": [
+        {
+          "advanceDays": 13,
+          "isAvailable": 0,
+          "learnPlanId": "string",
+          "venueId": "212324234234",
+          "venueName": "福田广仁大楼"
+        }
+      ]
+    },
+    "code": 200,
+    "message": "string"
+  },
+  "/teaching/v1/queryAppointmentInfo": {
+    "body": [
+      {
+        "alreadyAppointNums": 2,
+        "canAppointNums": 1,
+        "dtoList": [
+          {
+            "logoUrl": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F01%2F20180901190625_wmpeq.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623374941&t=cc414014e41ccffcfa93c51b428e7784",
+            "studentId": "12877323"
+          },
+          {
+            "logoUrl": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F01%2F20180901190625_wmpeq.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623374941&t=cc414014e41ccffcfa93c51b428e7784",
+            "studentId": "1287734"
+          }
+        ],
+        "loadRate": "string",
+        "timeRange": "08:00-09:00",
+        "totalAppointNums": 3
+      },
+      {
+        "alreadyAppointNums": 3,
+        "canAppointNums": 1,
+        "dtoList": [
+          {
+            "logoUrl": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F01%2F20180901190625_wmpeq.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623374941&t=cc414014e41ccffcfa93c51b428e7784",
+            "studentId": "12877323"
+          },
+          {
+            "logoUrl": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F01%2F20180901190625_wmpeq.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623374941&t=cc414014e41ccffcfa93c51b428e7784",
+            "studentId": "1287734"
+          }
+        ],
+        "loadRate": "string",
+        "timeRange": "09:00-10:00",
+        "totalAppointNums": 3
+      }
+    ],
+    "code": 200,
+    "message": "string"
+  },
+  "/teaching/v1/queryAppointRecord": {
+    "body": {
+      "breakTimes": 10,
+      "currentAppoint": {
+        "appointDate": "2021-01-02 12:20:23",
+        "appointStatus": "已守约",
+        "learnProjectId": "123",
+        "learnProjectName": "学习项目",
+        "venueId": "234",
+        "venueName": "广仁大楼"
+      },
+      "dtoList": [
+        {
+          "appointDate": "2021-01-02 12:20:23",
+          "appointStatus": "已守约",
+          "learnProjectId": "123",
+          "learnProjectName": "学习项目",
+          "venueId": "234",
+          "venueName": "广仁大楼"
+        }
+      ],
+      "lateTimes": 3,
+      "penaltyEndDate": "2021-09-09",
+      "penaltyReason": "不听话",
+      "studentStatus": "可预约"
+    },
+    "code": 200,
+    "message": "string"
+  },
+  "/teaching/v1/cancelAppoint": {
+    "code": 200,
+    "body": {
+      "code": 200,
+      "message": "token已失效"
+    }
+  },
+  "/teaching/v1/queryLearnPlan": {
+    "code": 200,
+    "msg": "success",
+    "body": [
+      {
+        "projectLevel": 0,
+        "projectName": "理论课培训",
+        "sort": 1,
+        "isLock": 1,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 0,
+            "learnPhaseName": "理论课培训",
+            "learnStatus": 2
+          }
+        ]
+      },
+      {
+        "projectLevel": 1,
+        "projectName": "仿真模拟机",
+        "sort": 2,
+        "isLock": 1,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 1,
+            "learnPhaseName": "仿真模拟机",
+            "learnStatus": 2
+          }
+        ]
+      },
+      {
+        "projectLevel": 2,
+        "projectName": "车感训练",
+        "sort": 3,
+        "isLock": 1,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 2,
+            "learnPhaseName": "车感训练",
+            "learnStatus": 2
+          }
+        ]
+      },
+      {
+        "projectLevel": 3,
+        "projectName": "三项联合",
+        "sort": 4,
+        "isLock": 1,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 3,
+            "learnPhaseName": "三项初级",
+            "learnStatus": 2
+          },
+          {
+            "learnPhase": 4,
+            "learnPhaseName": "三项中级",
+            "learnStatus": 2
+          }
+        ]
+      },
+      {
+        "projectLevel": 4,
+        "projectName": "侧方位停车",
+        "sort": 5,
+        "isLock": 0,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 5,
+            "learnPhaseName": "侧方位停车初级",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 6,
+            "learnPhaseName": "侧方位停车中级",
+            "learnStatus": 0
+          }
+        ]
+      },
+      {
+        "projectLevel": 5,
+        "projectName": "倒车入库",
+        "sort": 6,
+        "isLock": 0,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 7,
+            "learnPhaseName": "左倒库初级",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 8,
+            "learnPhaseName": "左倒库中级",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 9,
+            "learnPhaseName": "右倒库初级",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 10,
+            "learnPhaseName": "右倒库中级",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 11,
+            "learnPhaseName": "倒车入库中级",
+            "learnStatus": 0
+          }
+        ]
+      },
+      {
+        "projectLevel": 6,
+        "projectName": "五项循环",
+        "sort": 7,
+        "isLock": 0,
+        "learnPhaseDtoList": [
+          {
+            "learnPhase": 12,
+            "learnPhaseName": "五项循环",
+            "learnStatus": 0
+          },
+          {
+            "learnPhase": 13,
+            "learnPhaseName": "考前测评",
+            "learnStatus": 0
+          }
+        ]
+      }
+    ]
+  },
+  "/teaching/v1/generalOverview/mistakeItems": {
+    "body": {
+      "current": 1,
+      "data": [
+        {
+          "userId": "041328",
+          "deductionId": "20408",
+          "totalErrorTimes": "15",
+          "beginDt": "2021-07-19 10:42:44",
+          "endDt": "2021-07-19 11:58:58",
+          "eventDt": "2021-07-19 10:44:19",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "侧方位停车",
+              "errorItem": "压库位右线",
+              "errorContent": "进库后车身偏右（压右线）",
+              "judgeCondition": "车身触碰库位右边线或距离小于10CM",
+              "steps": "侧方6",
+              "samplePictures": null,
+              "mistakeReason": "方向盘左打满时机过晚",
+              "solutions": "左后轮离黄虚线过近，提前打满",
+              "deductionId": 20408
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20106",
+          "totalErrorTimes": "14",
+          "beginDt": "2021-07-14 10:32:01",
+          "endDt": "2021-07-16 11:06:03",
+          "eventDt": "2021-07-14 10:33:01",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "右倒库",
+              "errorItem": "压6号线",
+              "errorContent": "进库后车身偏右（压6号线）",
+              "judgeCondition": "1、车身触碰6号线\r\n2、与6号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "车速过慢",
+              "solutions": "保持车速，不因熟练度增加而变化",
+              "deductionId": 20106
+            },
+            {
+              "itemName": "左倒库",
+              "errorItem": "压6号线",
+              "errorContent": "进库后车身偏右（压6号线）",
+              "judgeCondition": "1、车身触碰6号线\r\n2、与6号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "左倒5-6",
+              "samplePictures": null,
+              "mistakeReason": "方向盘向左打满时机过晚",
+              "solutions": "提前打方向盘",
+              "deductionId": 20106
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压6号线",
+              "errorContent": "进库后车身偏右（压6号线）",
+              "judgeCondition": "1、车身触碰6号线\r\n2、与6号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "身子晃动导致左边7号线与镜架点位发生变化",
+              "solutions": "观察镜架与7号线状态时身子不可晃动",
+              "deductionId": 20106
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压6号线",
+              "errorContent": "进库后车身偏右（压6号线）",
+              "judgeCondition": "1、车身触碰6号线\r\n2、与6号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "镜架压7号线过少",
+              "solutions": "推迟打方向盘",
+              "deductionId": 20106
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20102",
+          "totalErrorTimes": "9",
+          "beginDt": "2021-07-06 08:45:23",
+          "endDt": "2021-07-16 11:51:58",
+          "eventDt": "2021-07-06 09:00:45",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "右倒库",
+              "errorItem": "车尾出线（3号线）",
+              "errorContent": "进库后车身出线（3号线）",
+              "judgeCondition": "车身越过3号线或距离小于10CM",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "停车时机过晚",
+              "solutions": "提早停车",
+              "deductionId": 20102
+            },
+            {
+              "itemName": "左倒库",
+              "errorItem": "车尾出线（3号线）",
+              "errorContent": "进库后车身出线（3号线）",
+              "judgeCondition": "车身越过3号线或距离小于10CM",
+              "steps": "左倒5-6",
+              "samplePictures": null,
+              "mistakeReason": "停车时机过晚",
+              "solutions": "提早停车",
+              "deductionId": 20102
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20406",
+          "totalErrorTimes": "7",
+          "beginDt": "2021-07-19 11:11:33",
+          "endDt": "2021-07-19 11:58:58",
+          "eventDt": "2021-07-19 11:13:29",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "侧方位停车",
+              "errorItem": "未开启转向灯",
+              "errorContent": "未开启转向灯",
+              "judgeCondition": "车尾超出库位线",
+              "steps": null,
+              "samplePictures": null,
+              "mistakeReason": "开启转向灯",
+              "solutions": "开启转向灯",
+              "deductionId": 20406
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20108",
+          "totalErrorTimes": "5",
+          "beginDt": "2021-07-06 08:04:56",
+          "endDt": "2021-07-16 11:23:12",
+          "eventDt": "2021-07-06 08:07:15",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "左倒库",
+              "errorItem": "压右角",
+              "errorContent": "出库过程中压右角",
+              "judgeCondition": "车身触碰2号线或6号线",
+              "steps": "左倒5-6",
+              "samplePictures": null,
+              "mistakeReason": "黄线到窗角打一圈加90过早",
+              "solutions": "推迟打方向盘",
+              "deductionId": 20108
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20103",
+          "totalErrorTimes": "5",
+          "beginDt": "2021-07-14 10:32:01",
+          "endDt": "2021-07-16 10:24:09",
+          "eventDt": "2021-07-14 10:33:20",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "右倒库",
+              "errorItem": "倒库不入",
+              "errorContent": "进库后车身不入",
+              "judgeCondition": "车身未完全越过2号线或距离小于10CM",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "停车时机过早",
+              "solutions": "推迟停车",
+              "deductionId": 20103
+            },
+            {
+              "itemName": "左倒库",
+              "errorItem": "倒库不入",
+              "errorContent": "进库后车身不入",
+              "judgeCondition": "车身未完全越过2号线或距离小于10CM",
+              "steps": "左倒5-6",
+              "samplePictures": null,
+              "mistakeReason": "停车时机过早",
+              "solutions": "推迟停车",
+              "deductionId": 20103
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20104",
+          "totalErrorTimes": "4",
+          "beginDt": "2021-07-06 09:18:46",
+          "endDt": "2021-07-14 10:31:32",
+          "eventDt": "2021-07-06 09:19:26",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "右倒库",
+              "errorItem": "未触碰感应线",
+              "errorContent": "前轮未越过感应虚线（7号线）",
+              "judgeCondition": "前轮未越过7号线或越过距离未超30CM",
+              "steps": "右倒2",
+              "samplePictures": null,
+              "mistakeReason": "前轮未完全越过感应虚线（7号线）",
+              "solutions": "继续前行，7号线超过左门窗中间后再停车",
+              "deductionId": 20104
+            },
+            {
+              "itemName": "左倒库",
+              "errorItem": "未触碰感应线",
+              "errorContent": "前轮未越过感应虚线（4号线）",
+              "judgeCondition": "前轮未越过4号线或越过距离未超30CM",
+              "steps": "左倒2",
+              "samplePictures": null,
+              "mistakeReason": "前轮未完全越过感应虚线（4号线）",
+              "solutions": "继续前行，黄虚线超过左门窗中间后再停车",
+              "deductionId": 20104
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20105",
+          "totalErrorTimes": "3",
+          "beginDt": "2021-07-14 10:20:33",
+          "endDt": "2021-07-16 11:45:54",
+          "eventDt": "2021-07-14 10:23:04",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "左倒库",
+              "errorItem": "压5号线",
+              "errorContent": "进库后车身偏左（压5号线）",
+              "judgeCondition": "1、车身触碰5号线\r\n2、与5号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "左倒5-6",
+              "samplePictures": null,
+              "mistakeReason": "方向盘向左打满时机过早",
+              "solutions": "推迟打方向盘",
+              "deductionId": 20105
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压5号线",
+              "errorContent": "进库后车身偏左（压5号线）",
+              "judgeCondition": "1、车身触碰5号线\r\n2、与5号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "车速过快",
+              "solutions": "保持车速，不因熟练度增加而变化",
+              "deductionId": 20105
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压5号线",
+              "errorContent": "进库后车身偏左（压5号线）",
+              "judgeCondition": "1、车身触碰5号线\r\n2、与5号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "打方向盘过慢",
+              "solutions": "提高打方向盘速度",
+              "deductionId": 20105
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压5号线",
+              "errorContent": "进库后车身偏左（压5号线）",
+              "judgeCondition": "1、车身触碰5号线\r\n2、与5号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "身子晃动导致左边7号线与镜架点位发生变化",
+              "solutions": "观察镜架与7号线状态时身子不可晃动",
+              "deductionId": 20105
+            },
+            {
+              "itemName": "右倒库",
+              "errorItem": "压5号线",
+              "errorContent": "进库后车身偏左（压5号线）",
+              "judgeCondition": "1、车身触碰5号线\r\n2、与5号线距离小于10CM\r\n3、触碰2号线",
+              "steps": "右倒5-7",
+              "samplePictures": null,
+              "mistakeReason": "镜架压7号线过多",
+              "solutions": "提早打方向盘",
+              "deductionId": 20105
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20403",
+          "totalErrorTimes": "1",
+          "beginDt": "2021-07-19 11:42:56",
+          "endDt": "2021-07-19 11:44:12",
+          "eventDt": "2021-07-19 11:42:56",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "侧方位停车",
+              "errorItem": "压道路右线",
+              "errorContent": "进库过程中车辆压道路右边线",
+              "judgeCondition": "车身触碰道路右边线",
+              "steps": "侧方1",
+              "samplePictures": null,
+              "mistakeReason": "车头3号点未始终与黄线重合（偏右）",
+              "solutions": "始终保持车头3号点与黄线重合",
+              "deductionId": 20403
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "10101",
+          "totalErrorTimes": "1",
+          "beginDt": "2021-07-06 08:45:23",
+          "endDt": "2021-07-06 09:06:23",
+          "eventDt": "2021-07-06 09:03:12",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "通用要求",
+              "errorItem": "不按规定使用安全带",
+              "errorContent": "不按规定使用安全带",
+              "judgeCondition": "不按规定使用安全带",
+              "steps": null,
+              "samplePictures": null,
+              "mistakeReason": "不按规定使用安全带",
+              "solutions": "按规定使用安全带",
+              "deductionId": 10101
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20401",
+          "totalErrorTimes": "1",
+          "beginDt": "2021-07-19 11:42:56",
+          "endDt": "2021-07-19 11:44:12",
+          "eventDt": "2021-07-19 11:43:04",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "侧方位停车",
+              "errorItem": "车身出线",
+              "errorContent": "进库后车身出线",
+              "judgeCondition": "车尾超出库位线",
+              "steps": "侧方6",
+              "samplePictures": null,
+              "mistakeReason": "右后视镜直角消失过多",
+              "solutions": "右后视镜直角消失立即转动1圈90度",
+              "deductionId": 20401
+            }
+          ]
+        },
+        {
+          "userId": "041328",
+          "deductionId": "20107",
+          "totalErrorTimes": "1",
+          "beginDt": "2021-07-16 11:43:47",
+          "endDt": "2021-07-16 11:45:54",
+          "eventDt": "2021-07-16 11:44:30",
+          "driveType": "7",
+          "projectLevel": "6",
+          "learnPhase": "12",
+          "projectName": "四项循环",
+          "judgeRule": [
+            {
+              "itemName": "左倒库",
+              "errorItem": "压左角",
+              "errorContent": "出库过程中压左角",
+              "judgeCondition": "车身触碰2号线或5号线",
+              "steps": "左倒2",
+              "samplePictures": null,
+              "mistakeReason": "黄线到窗角打一圈加90过早",
+              "solutions": "推迟打方向盘",
+              "deductionId": 20107
+            }
+          ]
+        }
+      ],
+      "pageCount": 10,
+      "pageSize": 10,
+      "total": 100
+    },
+    "code": 200,
+    "msg": "string"
+  },
+  "/teaching/v1/generalOverview/info": {
+    "body": {
+      "bailCount": 2,
+      "driveType": 0,
+      "examinareHours": 5,
+      "lateCount": 0,
+      "learnPhaseName": "",
+      "mobileNo": "18922201211",
+      "nowLearnPhaseName": "",
+      "practiceTime": 10,
+      "projectLevel": 0,
+      "projectName": "",
+      "reserveStatus": 1,
+      "studentId": "",
+      "totalCount": 10,
+      "trainingPlaceId": "",
+      "trueName": "张三",
+      "userId": ""
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/teaching/v1/generalOverview/selectHistoryExerciseInfo": {
+    "code": 200,
+    "msg": "success",
+    "body": {
+      "pageCount": 10,
+      "pageSize": 10,
+      "total": 100,
+      "current": 1,
+      "data": [
+        {
+          "userId": "620172",
+          "appointDate": "2021-07-07",
+          "appointBeginDate": "2021-07-07 10:00:00",
+          "appointEndDate": "2021-07-07 10:30:00",
+          "trainingPlaceId": "1392307370151505921",
+          "placeName": "清湖训练场",
+          "learnPhase": "9",
+          "learnPhaseName": "右倒库初级",
+          "driveType": 7,
+          "appointStatus": 4,
+          "loginTime": "2021-07-07 10:27:18",
+          "loginoutTime": "2021-07-07 10:29:21",
+          "errorItem": "17",
+          "errorContent": "出库过程中压左角",
+          "appointStatusStr": "迟到",
+          "nowLearnPhaseName": "左倒库中级",
+          "upgradeRecords": null
+        },
+        {
+          "userId": "620172",
+          "appointDate": "2021-07-22",
+          "appointBeginDate": "2021-07-22 17:00:00",
+          "appointEndDate": "2021-07-22 17:30:00",
+          "trainingPlaceId": "1392307370151505921",
+          "placeName": "清湖训练场",
+          "learnPhase": "3",
+          "learnPhaseName": "两项初级",
+          "driveType": 7,
+          "appointStatus": 4,
+          "loginTime": "2021-07-22 17:11:08",
+          "loginoutTime": "2021-07-22 17:11:12",
+          "errorItem": "0",
+          "errorContent": null,
+          "appointStatusStr": "迟到",
+          "nowLearnPhaseName": "左倒库中级",
+          "upgradeRecords": "两项初级—两项中级—侧方位停车初级—侧方位停车中级—左倒库初级—左倒库初级"
+        },
+        {
+          "userId": "620172",
+          "appointDate": "2021-07-22",
+          "appointBeginDate": "2021-07-22 18:00:00",
+          "appointEndDate": "2021-07-22 18:30:00",
+          "trainingPlaceId": "1392307370151505921",
+          "placeName": "清湖训练场",
+          "learnPhase": "8",
+          "learnPhaseName": "左倒库中级",
+          "driveType": 7,
+          "appointStatus": 4,
+          "loginTime": "2021-07-22 18:21:52",
+          "loginoutTime": null,
+          "errorItem": "0",
+          "errorContent": null,
+          "appointStatusStr": "迟到",
+          "nowLearnPhaseName": "左倒库中级",
+          "upgradeRecords": null
+        },
+        {
+          "userId": "620172",
+          "appointDate": "2021-07-23",
+          "appointBeginDate": "2021-07-23 10:30:00",
+          "appointEndDate": "2021-07-23 11:00:00",
+          "trainingPlaceId": "1392307370151505921",
+          "placeName": "清湖训练场",
+          "learnPhase": "8",
+          "learnPhaseName": "左倒库中级",
+          "driveType": 7,
+          "appointStatus": 4,
+          "loginTime": "2021-07-23 10:41:51",
+          "loginoutTime": null,
+          "errorItem": "0",
+          "errorContent": null,
+          "appointStatusStr": "迟到",
+          "nowLearnPhaseName": "左倒库中级",
+          "upgradeRecords": "左倒库中级—右倒库初级—右倒库中级—倒车入库中级—四项循环练习—考前测评"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="442px" height="16px" viewBox="0 0 442 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img-pingmutwo</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0.183020105%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#121C6E" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#00FFF4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#00FFFA" offset="0%"></stop>
+            <stop stop-color="#121C6E" stop-opacity="0" offset="99.8361014%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="报告主页-进阶(切图)" transform="translate(-154.000000, -348.000000)">
+            <g id="img-pingmutwo" transform="translate(154.000000, 347.000000)">
+                <rect x="0" y="1" width="442" height="16"></rect>
+                <polyline id="形状_886" stroke="url(#linearGradient-1)" stroke-width="2" points="439.956 7.1 248.578 7.762 241.957 14.384"></polyline>
+                <polygon id="多边形_871" fill="#00FFF4" points="228 1.07 208.224 0.97 218.015 15.649"></polygon>
+                <polyline id="形状_886-2" stroke="url(#linearGradient-2)" stroke-width="2" points="0 6.1 191.378 6.757 198 13.38"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
